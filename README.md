@@ -22,6 +22,7 @@ For now this repository holds the game's releases; the source code will follow.
 - **Gamepads**: Xbox, PlayStation, Switch and most others, with remappable buttons and keys.
 - **Fixes** for bugs in the original (sprite flicker, a frame that went blank, a possible freeze), and the sound effects no longer cut out the music.
 - **Presets**: VANILLA plays like the original, ENHANCED (the default) turns everything on, and CUSTOM is your own mix.
+- **Cheats**: infinite energy and missiles, all beams and suit upgrades, the full map, one-hit kills, playing out of the suit and more, kept with each save.
 
 ## What you need
 
@@ -52,16 +53,30 @@ If the game can't find your ROM, it opens a small window: drag the `.nes` file o
 | Keyboard | Gamepad | Does |
 |---|---|---|
 | Arrow keys | D-pad or left stick | Move |
-| X | A (south button) | Jump |
-| Z | X (west button) | Shoot, lay a bomb |
-| Right Shift | Back / View / Select | Arm missiles |
-| Enter | Start / Menu | Pause |
-| Q / W | LB / RB | Turn the pause screen's pages |
+| Z | Bottom face button (A on Xbox) | Shoot, lay a bomb; confirm in menus |
+| X | Right face button (B on Xbox) | Jump; back in menus |
+| Right Shift | View / Back (Create on PlayStation, Minus on Switch) | Arm missiles |
+| Enter | Menu / Start (Options on PlayStation, Plus on Switch) | Pause |
+| Q / W | LB / RB (L1 / R1, L / R) | Turn the pause screen's pages |
 | F11 or Alt+Enter | | Fullscreen |
 
-Every key and button can be changed on the pause screen's OPTIONS > CONTROLS page. Saving and quitting are on the pause screen too.
+The face buttons go by where they are, so the layout is the same on Xbox, PlayStation and Switch pads; on the keyboard Z and X sit in the same order as the NES pad's B and A. Every key and button can be changed on the pause screen's OPTIONS > CONTROLS page. Saving and quitting are on the pause screen too.
 
 ## Saves and settings
+
+Some settings are your own set-up and apply to every save; the others decide how a game plays, and each save slot keeps its own:
+
+| Kept | Pages | What that means |
+|---|---|---|
+| For every save | VIDEO, AUDIO, CONTROLS | Your screen, sound and buttons, the same in every slot. |
+| With each save slot | PRESET, GAME, EXTRAS, CHEATS | How that game plays. The title screen's OPTIONS sets them for new games; CHEATS is in a game's pause screen. |
+
+PRESET sets the GAME and EXTRAS options at once (VANILLA, ENHANCED or your CUSTOM mix); it leaves VIDEO alone. A cheat works only while it
+is on: switch it off and you have exactly what you found.
+
+Saves from earlier versions load as they were. Once saved with this version, they can't be read by an earlier one.
+
+Where the files are:
 
 | System | Folder |
 |---|---|
