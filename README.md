@@ -1,4 +1,4 @@
-# Bounty Hunter '86
+<p align="center"><img src="docs/logo.png" alt="Bounty Hunter '86"></p>
 
 A reimplementation of a classic action-exploration game featuring a lone adventurer on a hostile alien planet.
 
